@@ -1,16 +1,27 @@
-# React + Vite
+💼 Profile Card UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Profile Card / Job Openings UI built with React.js. This project demonstrates the use of reusable React components, props, and dynamic rendering to display multiple job cards in a clean and modern interface.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+Reusable React components
+Dynamic rendering using map()
+Company logo display
+Job title and company name
+Salary and location details
+Employment type and experience tags
+Apply Now button
+Save icon using Font Awesome
+Responsive and modern UI
+🛠️ Tech Stack
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
+Font Awesome
+📂 Project Structure
+src/
+├── components/
+│   └── Card.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
