@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:black;
+}
+.card{
+    width:300px;
+    border:1px solid white;
+    text-align:center;
+    padding:20px;
+    background-color:pink;
+}
+.card button{
+    background-color:azure;
+    padding:10px 20px;
+    color:black;
+    border-radius:5px;
+
+}
+.card p{
+    margin:20px 0;
+}
+.card img{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+.parent{
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+}
